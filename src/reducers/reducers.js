@@ -91,29 +91,18 @@ export const messagesReducer = (state = initialState.messages, action) => {
       return { ...state };
     case actionTypes.SEND_MESSAGE:
       const { message, userId, activeUserId } = action.payload;
-      const userExists = state[userId];
-      if (!userExists) {
-        return {
-          ...state,
-          [userId]: {
+
+      return {
+        ...state,
+        [userId]: [
+          ...state[userId],
+          {
             is_user_msg: userId === activeUserId ? true : false,
             userId: userId,
             text: message,
           },
-        };
-      } else {
-        return {
-          ...state,
-          [userId]: [
-            ...state[userId],
-            {
-              is_user_msg: userId === activeUserId ? true : false,
-              userId: userId,
-              text: message,
-            },
-          ],
-        };
-      }
+        ],
+      };
 
     default:
       return state;
