@@ -1,0 +1,12 @@
+.removeContact {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+.removeContactTypography {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}

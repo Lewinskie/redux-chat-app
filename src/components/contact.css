@@ -1,0 +1,32 @@
+.contact {
+  background: #202023;
+  padding: 0.3rem;
+  margin-top: 5px;
+  box-shadow: 1;
+  border-radius: 0.3rem;
+  position: relative;
+}
+
+.contact:hover {
+  cursor: pointer;
+  background-color: rgb(25, 40, 62);
+  transition: 0.6s ease-out;
+}
+.contactImg {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.smallContainer {
+  padding-left: 10px;
+}
+.deleteContact {
+  position: absolute;
+  height: 20px;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0px;
+}

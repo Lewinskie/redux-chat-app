@@ -1,0 +1,15 @@
+.chatHeader {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(189, 189, 192, 0.2);
+  height: auto;
+  position: sticky;
+  top: 0%;
+  background: #19191b;
+}
+
+.chatHeaderProfilePic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}

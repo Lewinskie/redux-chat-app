@@ -1,0 +1,12 @@
+.message {
+  margin-bottom: 0.5rem;
+  /* margin-top: 0.5rem; */
+  height: 5vh;
+  position: sticky;
+  bottom: 0px;
+}
+.send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

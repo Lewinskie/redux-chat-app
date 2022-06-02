@@ -1,0 +1,46 @@
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.gridContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.profilePic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.buttonGrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 1rem;
+}
